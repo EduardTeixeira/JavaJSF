@@ -1,0 +1,9 @@
+CREATE TABLE `prova`.`cep` ( `id` INT NOT NULL,
+  `cep` INT NULL,
+  `rua` VARCHAR(45) NULL,
+  `numero` INT NULL,
+  `bairro` VARCHAR(45) NULL,
+  `cidade` VARCHAR(45) NULL,
+  `estado` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `id_UNIQUE` (`id` ASC));
